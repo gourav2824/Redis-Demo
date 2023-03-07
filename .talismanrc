@@ -3,4 +3,8 @@ fileignoreconfig:
   checksum: d517cf4db6ed48853d6d1f415eac5261cf43f42aaa03ff184fd4c4f6eeea9aff
 - filename: src/main/java/gourav/example/redisdemo/service/KeyValueService.java
   checksum: 2fc46b877fab6ae2c43b6764da97327614f6b195ad43d0bbb7ade7675ee3673c
+- filename: src/main/java/gourav/example/redisdemo/service/RedisTemplateService.java
+  checksum: ef13d4d0c5388ba3b279d64403c10043d8bb73be8c49a0fdabdc6033d53600f0
+- filename: src/test/java/gourav/example/redisdemo/service/RedisTemplateServiceTest.java
+  checksum: d668be04d84c11ef0e95e6e7e9b6c1cc215b573a7aa2bc9a3d65e2e37f0a4bdd
 version: "1.0"
