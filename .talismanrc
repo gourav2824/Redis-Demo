@@ -5,10 +5,14 @@ fileignoreconfig:
   checksum: 865567f389102efa9f1ed455795dc676f13e21ed8fa2633d156cc830fdaae505
 - filename: src/main/java/gourav/example/redisdemo/service/KeyValueService.java
   checksum: 2fc46b877fab6ae2c43b6764da97327614f6b195ad43d0bbb7ade7675ee3673c
+- filename: src/main/java/gourav/example/redisdemo/service/RedisHashOperationsService.java
+  checksum: 006a2b79de774a8b580160286ce1d4e9ba468e0ec6997a48e6ec1e2964bc9253
 - filename: src/main/java/gourav/example/redisdemo/service/RedisTemplateService.java
   checksum: ef13d4d0c5388ba3b279d64403c10043d8bb73be8c49a0fdabdc6033d53600f0
 - filename: src/test/java/gourav/example/redisdemo/service/KeyValueServiceTest.java
   checksum: 50b3eb073ebcc497e68521bc888194e39a1cbc930ee40e10ca53a946c5dabbad
+- filename: src/test/java/gourav/example/redisdemo/service/RedisHashOperationsServiceTest.java
+  checksum: 15f3710e3f05ef09a3b373b8ce8f73acd45fbcf439d734dcb2f0a531a3629441
 - filename: src/test/java/gourav/example/redisdemo/service/RedisTemplateServiceTest.java
   checksum: d668be04d84c11ef0e95e6e7e9b6c1cc215b573a7aa2bc9a3d65e2e37f0a4bdd
 version: "1.0"
