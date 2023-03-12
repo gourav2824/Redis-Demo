@@ -11,11 +11,11 @@ public class JedisService {
         jedis = new Jedis();
     }
 
-    public String addKeyValue(String key, String value) {
+    public String addStringKeyValue(String key, String value) {
         return jedis.set(key, value);
     }
 
-    public String getValue(String key) {
+    public String getStringValue(String key) {
         return jedis.get(key);
     }
 }

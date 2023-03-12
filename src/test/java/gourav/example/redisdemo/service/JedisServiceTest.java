@@ -13,14 +13,14 @@ class JedisServiceTest {
     private JedisService jedisService;
 
     @Test
-    void testAddKeyValue() {
-        final String s = jedisService.addKeyValue("key11", "11");
+    void testAddStringKeyValue() {
+        final String s = jedisService.addStringKeyValue("key11", "11");
         System.out.println(s);
     }
 
     @Test
-    void testGetValue() {
-        final String value = jedisService.getValue("key11");
+    void testGetStringValue() {
+        final String value = jedisService.getStringValue("key11");
         System.out.println(value);
     }
 }
