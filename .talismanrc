@@ -1,6 +1,8 @@
 fileignoreconfig:
 - filename: src/main/java/gourav/example/redisdemo/repository/KeyValueRepository.java
   checksum: d517cf4db6ed48853d6d1f415eac5261cf43f42aaa03ff184fd4c4f6eeea9aff
+- filename: src/main/java/gourav/example/redisdemo/repository/RedisHashOperationsRepository.java
+  checksum: 703b8a7de235c8b3de7949cd1e235469207e9d2d3f2aceea69a93a1f240dd35d
 - filename: src/main/java/gourav/example/redisdemo/service/JedisService.java
   checksum: 865567f389102efa9f1ed455795dc676f13e21ed8fa2633d156cc830fdaae505
 - filename: src/main/java/gourav/example/redisdemo/service/KeyValueService.java
