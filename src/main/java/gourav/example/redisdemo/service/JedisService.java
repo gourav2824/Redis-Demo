@@ -9,8 +9,8 @@ import java.util.Map;
 public class JedisService {
     private final Jedis jedis;
 
-    public JedisService() {
-        jedis = new Jedis();
+    public JedisService(Jedis jedis) {
+        this.jedis = jedis;
     }
 
     public String addStringKeyValue(String key, String value) {
