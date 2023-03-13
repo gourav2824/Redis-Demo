@@ -5,10 +5,10 @@ import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Service;
 
 @Service
-public class RedisTemplateService {
+public class RedisValueOperationsService {
     private final ValueOperations<String, String> valueOperations;
 
-    public RedisTemplateService(RedisTemplate<String, String> redisTemplate) {
+    public RedisValueOperationsService(RedisTemplate<String, String> redisTemplate) {
         valueOperations = redisTemplate.opsForValue();
     }
 

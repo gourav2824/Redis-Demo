@@ -7,22 +7,22 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @Disabled
 @SpringBootTest
-class RedisTemplateServiceTest {
+class RedisValueOperationsServiceTest {
 
     @Autowired
-    private RedisTemplateService redisTemplateService;
+    private RedisValueOperationsService redisValueOperationsService;
 
     @Test
     void testAddKeyValue() {
         final String key = "key001";
         final String value = "value01";
-        redisTemplateService.addKeyValue(key, value);
+        redisValueOperationsService.addKeyValue(key, value);
     }
 
     @Test
     void testGetValue() {
         final String key = "key001";
-        final String value = redisTemplateService.getValue(key);
+        final String value = redisValueOperationsService.getValue(key);
         System.out.println(value);
     }
 }
