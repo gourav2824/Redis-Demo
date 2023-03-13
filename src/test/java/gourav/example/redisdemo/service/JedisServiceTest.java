@@ -43,4 +43,10 @@ class JedisServiceTest {
         final Map<String, String> hashFieldsAndValues = jedisService.getAllHashFieldsAndValues("myHashKey1");
         System.out.println(hashFieldsAndValues);
     }
+
+    @Test
+    void testAddStringInTheList() {
+        final long result = jedisService.addStringInTheList("myList1", "value1");
+        System.out.println(result);
+    }
 }

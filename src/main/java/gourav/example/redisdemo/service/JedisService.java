@@ -32,4 +32,8 @@ public class JedisService {
     public Map<String, String> getAllHashFieldsAndValues(String key) {
         return jedis.hgetAll(key);
     }
+
+    public long addStringInTheList(String key, String value) {
+        return jedis.rpush(key, value);
+    }
 }
