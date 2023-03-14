@@ -9,6 +9,9 @@ import java.util.Map;
 
 @Repository
 public class RedisHashOperationsRepository {
+    // To use HashOperations to store Student object, the Student class needs to implement Serializable interface
+    // Ex: public class Student implements Serializable {}
+
     private final HashOperations<String, Integer, Student> hashOperations;
 
     public RedisHashOperationsRepository(RedisTemplate<String, Student> redisTemplate) {
