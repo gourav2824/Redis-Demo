@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Redis-Demo
+  data:
+    redis:
+      host:
+      port:
