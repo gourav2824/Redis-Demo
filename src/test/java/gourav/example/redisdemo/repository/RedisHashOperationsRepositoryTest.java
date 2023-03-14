@@ -1,7 +1,6 @@
-package gourav.example.redisdemo.service;
+package gourav.example.redisdemo.repository;
 
 import gourav.example.redisdemo.entity.Student;
-import gourav.example.redisdemo.repository.RedisHashOperationsRepository;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +10,7 @@ import java.util.Map;
 
 @Disabled
 @SpringBootTest
-class RedisHashOperationsTest {
+class RedisHashOperationsRepositoryTest {
 
     @Autowired
     private RedisHashOperationsRepository repository;
