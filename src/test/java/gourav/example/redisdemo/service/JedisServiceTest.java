@@ -16,13 +16,13 @@ class JedisServiceTest {
 
     @Test
     void testAddStringKeyValue() {
-        final String result = jedisService.addStringKeyValue("key11", "11");
+        final String result = jedisService.saveKeyValue("key11", "11");
         System.out.println(result);
     }
 
     @Test
     void testGetStringValue() {
-        final String value = jedisService.getStringValue("key11");
+        final String value = jedisService.getValue("key11");
         System.out.println(value);
     }
 

@@ -29,13 +29,13 @@ class JedisServiceTest {
     }
 
     @Test
-    void testAddKeyValueAndGetValue() {
+    void testSaveKeyValueAndGetValue() {
         final String key = "testKey", value = "testValue";
 
-        final String result = jedisService.addStringKeyValue(key, value);
+        final String result = jedisService.saveKeyValue(key, value);
 
         assertThat(result).isEqualTo("OK");
-        assertThat(jedisService.getStringValue(key)).isEqualTo(value);
+        assertThat(jedisService.getValue(key)).isEqualTo(value);
     }
 
     @AfterAll

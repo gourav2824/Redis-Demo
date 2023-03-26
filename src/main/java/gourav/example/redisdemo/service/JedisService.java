@@ -13,11 +13,11 @@ public class JedisService {
         this.jedis = jedis;
     }
 
-    public String addStringKeyValue(String key, String value) {
+    public String saveKeyValue(String key, String value) {
         return jedis.set(key, value);
     }
 
-    public String getStringValue(String key) {
+    public String getValue(String key) {
         return jedis.get(key);
     }
 
